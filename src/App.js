@@ -1,56 +1,66 @@
 import React, { useEffect } from 'react';
 import CSH_photo from './CSH_Graduation_picture.jpg';
+import maths_quiz from './maths-quiz.png';
 import Sentiment_keyword_analysis_model from './key_word_sentiment_analysis_model.png';
+import personalised_ai from './personalised-ai.png';
 import temp_image from './temp.png'
 
 function App() {
-  useEffect(() => {
-    document.body.style.backgroundColor = 'black';
-  }, []);
 
   return (
     <div>
-      <div style={{ backgroundColor: 'black'}} className='center-container'>
-      </div>
-      <div className='center-container'>
-        <img src={CSH_photo} className='photo-size'></img>
-      </div>
-      <div style={{ color: 'white', textAlign: 'center', margin: 50}} className='center-container'>
-        Hello. I am a mathematics graduate from Durham University seeking roles in Software Development. I have hands on experience in software engineering through Outlier as well as programming skills through self study.
+
+      <div className='intro-container'>
+          <img src={CSH_photo} style={{width: '406px', height:'300px'}}></img>
+
+          <div>
+            Hi, I'm Canvern.
+            <br></br>
+            <br></br>
+            Aspiring Software Engineer & graduate from Durham University
+            <br></br>
+            <br></br>
+            Experienced in software development with experience in Outlier
+          </div>
       </div>
 
-      <div className='center-container'>
+
+
+
+      <div style={{color:'red', textAlign: 'center', marginTop: '100px'}}>
         <h1> Projects </h1>
       </div>
 
-      <div className='container'>
-        <div className='left-box'>
-            <img src={Sentiment_keyword_analysis_model} className='project-photo'></img>
+      <div className='project-container'>
+        <div style={{width: '500px'}}>
+            <img src={maths_quiz} className='project-photo'></img>
         </div>
-        <div className='right-box'>
-            This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing. Link: <a href="https://sentiment-and-keyword-analysis.vercel.app/">here</a>
-        </div>
-      </div>
-
-      <div className='container'>
-        <div className='left-box'>
-            <img src={temp_image} className='project-photo2' onClick={console.log('Test')}></img>
-        </div>
-        <div className='right-box'>
-            This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing.
+        <div className='project-text'>
+          A full-stack maths quiz application. Frontend: React, Backend: Node.js and Express. Database: Postgresql. Link <a href="https://maths-quiz-nine.vercel.app">here</a>
         </div>
       </div>
 
-      <div className='container'>
-        <div className='left-box'>
-            <img src={temp_image} className='project-photo3' onClick={console.log('Test')}></img>
+
+
+      <div className='project-container'>
+        <div style={{width: '500px'}}>
+            <img src={Sentiment_keyword_analysis_model} className='project-photo2'></img>
         </div>
-        <div className='right-box'>
-            This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing.
+        <div className='project-text'>
+            This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing. Link <a href="https://sentiment-and-keyword-analysis.vercel.app/">here</a>
         </div>
       </div>
 
-      <div className='center-container2'>
+      <div className='project-container'>
+        <div style={{width: '500px'}}>
+            <img src={personalised_ai} className='project-photo3'></img>
+        </div>
+        <div className='project-text'>
+          Personalised AI by connecting to Google Gemini AI model. Link <a href="personalised-ai.vercel.app">here</a>
+        </div>
+      </div>
+
+      <div>
         <h1>
           Education
         </h1>
