@@ -8,6 +8,9 @@ import React, { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
+import {FaGithub, FaLinkedin } from 'react-icons/fa';
+import {CgMail} from 'react-icons/cg';
+
 function App() {
   const [init, setInit] = useState(false);
 
@@ -40,7 +43,7 @@ function App() {
     },
     particles: {
       number: { value: 50, density: { enable: true, area: 800 } },
-      color: { value: "#ffffff" },
+      color: { value: "#db7705ff" },
       shape: { type: "circle" },
       opacity: { value: 0.5, random: true },
       size: { value: { min: 1, max: 5 } },
@@ -59,15 +62,15 @@ function App() {
       <Particles id="tsparticles" options={options} particlesLoaded={particlesLoaded} />
 
       <div className='intro-container'>
-          <div>
+          <div style={{width: '406px', height:'300px', textAlign: 'center'}}>
           <img src={CSH_photo} style={{width: '406px', height:'300px'}} alt=''></img>
+          <br></br><br></br><br></br>
+          <FaGithub size={30}></FaGithub> | <FaLinkedin size={30}></FaLinkedin>
           <br></br>
-          github | Linkedin
-          <br></br>
-          gmail
+          <CgMail size={30}></CgMail>
           </div>
-          <div>
-            <h1>Hi, I'm Canvern.</h1>
+          <div style={{color: 'grey'}}> 
+            <h1 style={{fontFamily: 'Roboto', color:'white'}}>Hi, I'm Canvern.</h1>
             <br></br>
             <br></br>
             Aspiring Software Engineer & graduate from Durham University
@@ -77,7 +80,12 @@ function App() {
           </div>
       </div>
 
-      <div style={{color: 'white', display: 'flex', justifyContent: 'center', alignItems:'center', marginLeft: '20%', marginRight: '20%'}}>
+        <div>
+          <h1 style={{fontFamily: 'Roboto', color:'white', display: 'flex', justifyContent: 'center', alignItems:'center'}}>Personal Summary</h1>
+        </div>
+
+      <div style={{color: 'grey', display: 'flex', justifyContent: 'center', alignItems:'center', marginLeft: '30%', marginRight: '30%'}} className='font1'>
+        
         Recent graduate from Durham University with a strong foundation in software development, programming, and mathematics. I have hands-on experience building full-stack applications using Python,
         C++, and Next.js, alongside practical knowledge of AI and deep learning from academic and real-world
         projects. At Outlier.ai, I contributed to both AI model training and web development initiatives. I
@@ -85,37 +93,55 @@ function App() {
         through group projects. Seeking a graduate role in software development in the UK starting in 2025.
       </div>
 
-      <div style={{color: 'white', textAlign: 'center', marginTop: '200px'}}>
-        <h2> Education</h2>
-        <br></br>
-        <h1>Durham University</h1>
-        First Class Honours in BSc Mathematics
-        <br></br> <br></br>
-        Specialisation: Artifical Intelligence, Programming and Mathematical concepts
-        <br></br>
-        Key Modules (all programming-based): Programming, Machine Learning, Cryptography, Data Science, Modelling.
-        <br></br>
-        Project: Uncertainty Calibration for Deep Learning – Developed deep learning algorithms for image classification using Python and frameworks such as PyTorch, improving computer vision.
-        <br></br><br></br>
-        Took several programming modules and projects achieving 70%-91% in all of them.
+      <div style={{marginTop: '200px'}}>
+        <h1 style={{fontFamily: 'Roboto', color:'white', display: 'flex', justifyContent: 'center', alignItems:'center'}}>Education</h1>
+      </div>
+
+      <div style={{color: 'white', textAlign: 'center'}}>
+
+        <div className='backgroundcolor1'>
+          <br></br>
+          <h2 style={{color: 'white'}}>Durham University</h2>
+          First Class Honours in BSc Mathematics
+          <br></br> <br></br>
+          Specialisation: Artifical Intelligence, Programming and Mathematical concepts
+          <br></br>
+          Key Modules (all programming-based): Programming, Machine Learning, Cryptography, Data Science, Modelling.
+          <br></br>
+          Project: Uncertainty Calibration for Deep Learning – Developed deep learning algorithms for image classification using Python and frameworks such as PyTorch, improving computer vision.
+          <br></br><br></br>
+          Took several programming modules and projects achieving 70%-91% in all of them.
+          <br></br><br></br>
+        </div>
 
         <br></br><br></br><br></br>
-        <h1>A Levels</h1>
-        A*A*A*A* in Computer Science, Maths, Further Maths and Physics
-        <br></br><br></br>
-        Computer Science Included: OOP, Algorithms, Data Structures, Relational databases, Security
+
+        <div className='backgroundcolor1'>
+          <br></br>
+          <h1>A Levels</h1>
+          A*A*A*A* in Computer Science, Maths, Further Maths and Physics
+          <br></br><br></br>
+          Computer Science Included: OOP, Algorithms, Data Structures, Relational databases, Security
+          <br></br><br></br>
+        </div>
 
         <br></br><br></br><br></br>
-        <h1>GCSE</h1>
-        8 GCSEs including Grade 8 in Computer Science and Grade 9 in Mathematics and Further Mathematics
+
+        <div className='backgroundcolor1'>
+          <br></br>
+          <h1>GCSE</h1>
+          8 GCSEs including Grade 8 in Computer Science and Grade 9 in Mathematics and Further Mathematics
+          <br></br><br></br>
+        </div>
 
       </div>
 
 
+     <div style={{marginTop: '400px'}}>
+        <h1 style={{fontFamily: 'Roboto', color:'white', display: 'flex', justifyContent: 'center', alignItems:'center'}}>Experience</h1>
+      </div>
 
-
-      <div style={{color: 'white', textAlign: 'center', marginTop: '400px'}}>
-        <h2>Experience</h2>
+      <div style={{color: 'white', textAlign: 'center'}}>
 
         <div style={{display:'flex', alignItems: 'center', textAlign:'center', justifyContent:'center'}}>
           <div style={{marginRight: '100px'}}>

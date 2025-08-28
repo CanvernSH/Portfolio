@@ -80,3 +80,17 @@ html, body {
 body{
     background: black;
 }
+
+.font1 {
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    gap: 15%;
+}
+
+.backgroundcolor1{
+    background-color:darkslateblue;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 35px;
+}
