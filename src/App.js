@@ -9,7 +9,14 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 import {FaGithub, FaLinkedin } from 'react-icons/fa';
+import {TbHexagon} from 'react-icons/tb';
 import {CgMail} from 'react-icons/cg';
+
+import PythonImg from './python.png';
+import CPlusPlus from './c++.png';
+import JavaScript from './javascript.png';
+import ReactImg from './react.png';
+import RStudio from './rstudio.png';
 
 function App() {
   const [init, setInit] = useState(false);
@@ -63,17 +70,17 @@ function App() {
 
       <div className='intro-container'>
           <div style={{width: '406px', height:'300px', textAlign: 'center'}}>
-          <img src={CSH_photo} style={{width: '406px', height:'300px'}} alt=''></img>
-          <br></br><br></br><br></br>
-          <FaGithub size={30}></FaGithub> | <FaLinkedin size={30}></FaLinkedin>
-          <br></br>
-          <CgMail size={30}></CgMail>
+            <img src={CSH_photo} style={{width: '406px', height:'300px'}} alt=''></img>
+            <br></br><br></br><br></br>
+            <FaGithub size={30}></FaGithub> | <FaLinkedin size={30}></FaLinkedin>
+            <br></br>
+            <CgMail size={30}></CgMail>
           </div>
           <div style={{color: 'grey'}}> 
             <h1 style={{fontFamily: 'Roboto', color:'white'}}>Hi, I'm Canvern.</h1>
             <br></br>
             <br></br>
-            Aspiring Software Engineer & graduate from Durham University
+            Software Engineer & graduate from Durham University
             <br></br>
             <br></br>
             Experienced in software development with experience in Outlier
@@ -84,7 +91,7 @@ function App() {
           <h1 style={{fontFamily: 'Roboto', color:'white', display: 'flex', justifyContent: 'center', alignItems:'center'}}>Personal Summary</h1>
         </div>
 
-      <div style={{color: 'grey', display: 'flex', justifyContent: 'center', alignItems:'center', marginLeft: '30%', marginRight: '30%'}} className='font1'>
+      <div style={{color: 'grey', display: 'flex', justifyContent: 'center', alignItems:'center', width: '500px', margin: '0 auto'}} className='font1'>
         
         Recent graduate from Durham University with a strong foundation in software development, programming, and mathematics. I have hands-on experience building full-stack applications using Python,
         C++, and Next.js, alongside practical knowledge of AI and deep learning from academic and real-world
@@ -138,7 +145,7 @@ function App() {
 
 
      <div style={{marginTop: '400px'}}>
-        <h1 style={{fontFamily: 'Roboto', color:'white', display: 'flex', justifyContent: 'center', alignItems:'center'}}>Experience</h1>
+        <h1 style={{fontFamily: 'Roboto', color:'white', display: 'flex', justifyContent: 'center', alignItems:'center'}}>Work Experience</h1>
       </div>
 
       <div style={{color: 'white', textAlign: 'center'}}>
@@ -186,6 +193,14 @@ function App() {
         <h1> Projects </h1>
       </div>
 
+      <br></br>
+
+      <div style={{textAlign: 'center', margin: '0 auto', width: '600px', color: 'grey', fontSize: '20px'}} className='project-text'>
+        The following projects are some of my latest projects that I have worked on. These have taught me a variety of programming skills and website application. I am constantly making new projects and learning more about computer engineering.
+      </div>
+
+      <br></br><br></br>
+
       <div className='project-container'>
         <div style={{width: '500px'}}>
             <img src={maths_quiz} className='project-photo' alt=''></img>
@@ -217,6 +232,71 @@ function App() {
       <br></br><br></br><br></br><br></br><br></br>
 
       </div>
+
+      <div style={{color:'white', fontFamily: 'Roboto', textAlign: 'center', marginTop: '100px'}}>
+        <h1>Achievements and Certificates</h1>
+      </div>
+
+      <br></br><br></br>
+
+      <div style={{display: 'flex', margin: '0 auto', textAlign: 'center', alignItems: 'center', justifyContent: 'center', color: 'white'}}>
+
+        <div className='certificate-container'>
+          a
+        </div>
+
+        <div className='certificate-container'>
+          a
+        </div>
+
+        <div className='certificate-container'>
+          a
+        </div>
+
+      </div>
+
+
+      <div style={{color:'white', fontFamily: 'Roboto', textAlign: 'center', marginTop: '200px'}}>
+        <h1>Techincal Skills</h1>
+      </div>
+
+      <br></br> <br></br>
+
+      <div style={{textAlign: 'center', margin: '0 auto', width: '700px', color: 'grey', fontSize: '20px'}} className='project-text'>
+        Throughout my time in in my degree, experience and through self-study I have learnt a variety of programming languages and skills. These skills have been gained through many hours of practice, understanding and problem solving. I am constantly deepening my understanding in these languages, as well as remaining open to new languages and gaining transferrable skills 
+        <br></br><br></br>
+
+
+
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={PythonImg} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={CPlusPlus} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={JavaScript} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={ReactImg} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={RStudio} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
 
       <footer className='footer'>
         <h2>test</h2>

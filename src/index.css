@@ -22,6 +22,13 @@ html, body {
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+    }
 }
 
 .flex-container{
@@ -90,7 +97,34 @@ body{
 
 .backgroundcolor1{
     background-color:darkslateblue;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 auto;
+    width: 600px;
     border-radius: 35px;
+}
+
+.certificate-container{
+    background-color:cornflowerblue;
+    height: 200px;
+    width: 300px;
+    border-radius: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+.hex{
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(
+        0% 25%,
+        0% 75%,
+        50% 100%,
+        100% 75%,
+        100% 25%,
+        50% 0%
+    );
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
