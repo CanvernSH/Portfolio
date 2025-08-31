@@ -23,6 +23,7 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
@@ -72,12 +73,9 @@ html, body {
 
 .project-text{
     width: 800px;
-    margin-left: 50px
+    margin-left: 50px;
 }
 
-.footer {
-    text-align: center;
-}
 
 /*body{
     background: linear-gradient(135deg, #0a0a0a 0%, #f9fafb 100%);

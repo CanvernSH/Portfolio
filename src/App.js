@@ -297,8 +297,8 @@ function App() {
       </div>
 
 
-      <footer className='footer'>
-        <h2>test</h2>
+      <footer style={{color: 'gray', textAlign: 'center', marginTop: '100px', fontFamily: 'sans-serif'}}>
+        Canvern SH
       </footer>
 
     </div>
