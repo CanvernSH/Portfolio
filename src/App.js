@@ -11,11 +11,18 @@ import { loadSlim } from "@tsparticles/slim";
 import {FaGithub, FaLinkedin } from 'react-icons/fa';
 import {CgMail} from 'react-icons/cg';
 
+import DownloadIcon from './downloadicon.png'
+
 import PythonImg from './python.png';
 import CPlusPlus from './c++.png';
 import JavaScript from './javascript.png';
 import ReactImg from './react.png';
 import RStudio from './rstudio.png';
+
+import PyTorch from './pytorch.png';
+import TensorFlow from './TensorFlow.png';
+import Git from './git.png';
+import Postgresql from './postgresql.png';
 
 function App() {
   const [init, setInit] = useState(false);
@@ -66,6 +73,15 @@ function App() {
   return (
     <div>
       <Particles id="tsparticles" options={options} particlesLoaded={particlesLoaded} />
+      
+      <header className='border1' style={{color: 'black', position: 'sticky', top:'0', display: 'flex', height: '50px', justifyContent: 'center', alignItems: 'center'}}>
+          <div style={{width: '100%'}}>+44 752329 7104 | canvernsh@gmail.com </div>
+          <div style={{direction: 'rtl', marginRight: '20px', width: '100%'}}>
+            Nav Bar
+            <button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'35px', width: '135px'}}><img src={DownloadIcon} alt="" style={{height: '16px', width: '16px', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button>
+          </div>
+      </header>
+
 
       <div className='intro-container'>
           <div style={{width: '406px', height:'300px', textAlign: 'center'}}>
@@ -292,8 +308,37 @@ function App() {
         </div>
 
 
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={PyTorch} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={TensorFlow} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={Git} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex' style={{backgroundColor: 'purple'}}>
+            <img src={Postgresql} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+        </div>
 
 
+
+
+      </div>
+
+      <div style={{backgroundColor: 'white', width: '80%', height: '1px', margin: '0 auto', marginTop: '120px'}}>
+      </div>
+
+
+      <div style={{display: 'flex', justifyContent: 'center', marginTop: '140px'}}>
+        <a href="mailto:canvernsh@gmail.com"><button style={{height: '100px', width: '300px', borderRadius: '35px', backgroundColor: 'blue', color: 'white', cursor: 'pointer'}}><h1>Contact Me</h1></button></a>
       </div>
 
 

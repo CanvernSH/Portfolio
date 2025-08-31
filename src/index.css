@@ -126,3 +126,12 @@ body{
     align-items: center;
     display: flex;
 }
+
+.border1{
+    border-color: black;
+    border-bottom-color: black;
+    background-color:aliceblue;
+    border-style: solid;
+    border-width: 1px;
+
+}
