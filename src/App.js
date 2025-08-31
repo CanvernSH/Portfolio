@@ -9,7 +9,6 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 import {FaGithub, FaLinkedin } from 'react-icons/fa';
-import {TbHexagon} from 'react-icons/tb';
 import {CgMail} from 'react-icons/cg';
 
 import PythonImg from './python.png';
@@ -72,9 +71,9 @@ function App() {
           <div style={{width: '406px', height:'300px', textAlign: 'center'}}>
             <img src={CSH_photo} style={{width: '406px', height:'300px'}} alt=''></img>
             <br></br><br></br><br></br>
-            <FaGithub size={30}></FaGithub> | <FaLinkedin size={30}></FaLinkedin>
+            <a href="https://github.com/canvernsh"><FaGithub size={30}></FaGithub></a> | <a href="https://linkedin.com/in/canvernsh"><FaLinkedin size={30}></FaLinkedin></a>
             <br></br>
-            <CgMail size={30}></CgMail>
+            <a href="mailto:canvernsh@gmail.com"><CgMail size={30}></CgMail></a>
           </div>
           <div style={{color: 'grey'}}> 
             <h1 style={{fontFamily: 'Roboto', color:'white'}}>Hi, I'm Canvern.</h1>
@@ -203,7 +202,7 @@ function App() {
 
       <div className='project-container'>
         <div style={{width: '500px'}}>
-            <img src={maths_quiz} className='project-photo' alt=''></img>
+            <a href="https://maths-quiz-nine.vercel.app" target="_blank"><img src={maths_quiz} className='project-photo' alt=''></img></a>
         </div>
         <div className='project-text'>
           A full-stack maths quiz application. Frontend: React, Backend: Node.js and Express. Database: Postgresql. Link <a href="https://maths-quiz-nine.vercel.app">here</a>
@@ -214,7 +213,7 @@ function App() {
 
       <div className='project-container'>
         <div style={{width: '500px'}}>
-            <img src={Sentiment_keyword_analysis_model} className='project-photo2' alt=''></img>
+            <a href="https://sentiment-and-keyword-analysis.vercel.app" target="_blank"><img src={Sentiment_keyword_analysis_model} className='project-photo2' alt=''></img></a>
         </div>
         <div className='project-text'>
             This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing. Link <a href="https://sentiment-and-keyword-analysis.vercel.app/">here</a>
@@ -223,7 +222,7 @@ function App() {
 
       <div className='project-container'>
         <div style={{width: '500px'}}>
-            <img src={personalised_ai} className='project-photo3' alt=''></img>
+            <a href="https://personalised-ai.vercel.app" target="_blank"><img src={personalised_ai} className='project-photo3' alt=''></img></a>
         </div>
         <div className='project-text'>
           Personalised AI by connecting to Google Gemini AI model. Link <a href="personalised-ai.vercel.app">here</a>
