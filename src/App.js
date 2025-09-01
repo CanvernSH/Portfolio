@@ -70,6 +70,8 @@ function App() {
     detectRetina: true,
   }), []);
 
+
+
   return (
     <div>
       <Particles id="tsparticles" options={options} particlesLoaded={particlesLoaded} />
@@ -84,13 +86,15 @@ function App() {
 
 
 
+      <div style={{height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: 'fit-content'}}>
       <div className='intro-container'>
-          <div style={{width: '406px', height:'300px', textAlign: 'center'}}>
+          <div style={{textAlign: 'center'}}>
             <img src={CSH_photo} style={{width: '406px', height:'300px'}} alt=''></img>
             <br></br><br></br><br></br>
             <a href="https://github.com/canvernsh"><FaGithub size={30}></FaGithub></a> | <a href="https://linkedin.com/in/canvernsh"><FaLinkedin size={30}></FaLinkedin></a>
             <br></br>
             <a href="mailto:canvernsh@gmail.com"><CgMail size={30}></CgMail></a>
+            <br></br><br></br><br></br><br></br>
           </div>
           <div style={{color: 'grey'}}> 
             <h1 style={{fontFamily: 'Roboto', color:'white'}}>Hi, I'm Canvern.</h1>
@@ -101,6 +105,7 @@ function App() {
             <br></br>
             Experienced in software development with experience in Outlier
           </div>
+      </div>
       </div>
 
         <div>
@@ -258,15 +263,15 @@ function App() {
       <div style={{display: 'flex', margin: '0 auto', textAlign: 'center', alignItems: 'center', justifyContent: 'center', color: 'white'}}>
 
         <div className='certificate-container'>
-          a
+          UKMT Olympiad <br></br><br></br> Best in School award (x2), Gold certificates (×4) and National Qualification
         </div>
 
         <div className='certificate-container'>
-          a
+          Hackthon <br></br><br></br> Experienced Programming in Team Environments
         </div>
 
         <div className='certificate-container'>
-          a
+          Subject Prize <br></br><br></br> Recognised for consistently exceptional academic performance
         </div>
 
       </div>
