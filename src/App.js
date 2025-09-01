@@ -12,6 +12,7 @@ import {FaGithub, FaLinkedin } from 'react-icons/fa';
 import {CgMail} from 'react-icons/cg';
 
 import DownloadIcon from './downloadicon.png'
+import NavImg from './nav.png';
 
 import PythonImg from './python.png';
 import CPlusPlus from './c++.png';
@@ -70,6 +71,15 @@ function App() {
     detectRetina: true,
   }), []);
 
+  const [navPressed, setNavPressed] = useState(false);
+
+  const [showInfo, setShowInfo] = useState(true);
+
+  const handleNavButton = () => {
+    setNavPressed(!navPressed);
+  };
+
+
 
 
   return (
@@ -78,11 +88,42 @@ function App() {
       
       <header className='border1' style={{color: 'black', position: 'sticky', top:'0', display: 'flex', height: '50px', justifyContent: 'center', alignItems: 'center', zIndex: '100'}}>
           <div style={{width: '100%', marginLeft: '20px'}}>+44 752329 7104 | canvernsh@gmail.com </div>
+          <div className="checkMedia">
+            <a href="#">Home</a>
+            <span style={{display: 'inline-block', width:'20px'}}></span>
+            <a href="#aboutme">About me</a>
+            <span style={{display: 'inline-block', width:'20px'}}></span>
+            <a href="#projects">Projects</a>
+            <span style={{display: 'inline-block', width:'20px'}}></span>
+            <a href="#contact">Contact</a>
+            <span style={{display: 'inline-block', width:'80px'}}></span>
+            <a href="https://github.com/canvernsh"><FaGithub size={30}></FaGithub></a> 
+                        <span style={{display: 'inline-block', width:'20px'}}></span>
+            <a href="https://linkedin.com/in/canvernsh"><FaLinkedin size={30}></FaLinkedin></a>
+          </div>
+          
           <div style={{direction: 'rtl', marginRight: '20px', width: '100%'}}>
-            Nav Bar
-            <a href="https://drive.google.com/uc?export=download&id=17cfaJqCPebvTiK_f_SXMWfRNSDcZXUgH" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'35px', width: '135px', cursor: 'pointer'}}><img src={DownloadIcon} alt="" style={{height: '16px', width: '16px', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
+            <button onClick={handleNavButton} style={{backgroundColor: 'white'}} className='nav-bar'> <img src={NavImg} style={{height: '15px', width: '15px'}} alt=""></img> </button>
+            <a href="https://drive.google.com/uc?export=download&id=1qLq8gyrJMoBeTb8CFeV_-LDaDgSfxLFx" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'35px', width: '135px', cursor: 'pointer'}}><img src={DownloadIcon} alt="" style={{height: '16px', width: '16px', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
           </div>
       </header>
+
+      {navPressed && <div className="nav-bar-loaded" style={{backgroundColor: 'grey', marginLeft: '85%', height: 'fit-content', position: 'fixed', width: '13%', color: 'white', textAlign: 'center'}}>
+        <a href="#">Home</a>
+        <br></br>
+        <a href="#aboutme">About me</a>
+        <br></br>
+        <a href="#projects">Projects</a>
+        <br></br>
+        <a href="#contact">Contact</a>
+        <br></br>
+        <div style={{marginTop: '7px'}}>
+        <a href="https://linkedin.com/in/canvernsh"><FaLinkedin size={30}></FaLinkedin></a>
+        <span style={{display: 'inline-block', width: '2px'}}></span> | <span style={{display: 'inline-block', width: '2px'}}></span>
+        <a href="mailto:canvernsh@gmail.com"><CgMail size={30}></CgMail></a>
+        </div>
+      </div>
+      }
 
 
 
@@ -107,6 +148,8 @@ function App() {
           </div>
       </div>
       </div>
+
+      <div className="anchor1" id="aboutme"></div>
 
         <div>
           <h1 style={{fontFamily: 'Roboto', color:'white', display: 'flex', justifyContent: 'center', alignItems:'center'}}>Personal Summary</h1>
@@ -209,6 +252,8 @@ function App() {
 
 
       <div style={{color: 'white', marginTop: '400px'}}>
+      
+      <div className="anchor1" id="projects"></div>
 
       <div style={{color:'red', textAlign: 'center', marginTop: '100px'}}>
         <h1> Projects </h1>
@@ -343,7 +388,7 @@ function App() {
       </div>
 
 
-      <div style={{display: 'flex', justifyContent: 'center', marginTop: '140px'}}>
+      <div id="contact" style={{display: 'flex', justifyContent: 'center', marginTop: '140px'}}>
         <a href="mailto:canvernsh@gmail.com"><button style={{height: '100px', width: '300px', borderRadius: '35px', backgroundColor: 'blue', color: 'white', cursor: 'pointer'}}><h1>Contact Me</h1></button></a>
       </div>
 
