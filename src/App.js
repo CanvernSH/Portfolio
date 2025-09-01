@@ -74,13 +74,14 @@ function App() {
     <div>
       <Particles id="tsparticles" options={options} particlesLoaded={particlesLoaded} />
       
-      <header className='border1' style={{color: 'black', position: 'sticky', top:'0', display: 'flex', height: '50px', justifyContent: 'center', alignItems: 'center'}}>
-          <div style={{width: '100%'}}>+44 752329 7104 | canvernsh@gmail.com </div>
+      <header className='border1' style={{color: 'black', position: 'sticky', top:'0', display: 'flex', height: '50px', justifyContent: 'center', alignItems: 'center', zIndex: '100'}}>
+          <div style={{width: '100%', marginLeft: '20px'}}>+44 752329 7104 | canvernsh@gmail.com </div>
           <div style={{direction: 'rtl', marginRight: '20px', width: '100%'}}>
             Nav Bar
-            <button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'35px', width: '135px'}}><img src={DownloadIcon} alt="" style={{height: '16px', width: '16px', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button>
+            <a href="https://drive.google.com/uc?export=download&id=17cfaJqCPebvTiK_f_SXMWfRNSDcZXUgH" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'35px', width: '135px', cursor: 'pointer'}}><img src={DownloadIcon} alt="" style={{height: '16px', width: '16px', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
           </div>
       </header>
+
 
 
       <div className='intro-container'>
