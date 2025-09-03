@@ -89,7 +89,7 @@ function App() {
       
       <header className='header'>
 
-        <div style={{width: '100%', marginLeft: '20px'}}>+44 752329 7104 | canvernsh@gmail.com </div>
+        <div style={{width: '100%', marginLeft: '20px'}}>+44 7523 297104 | canvernsh@gmail.com </div>
 
         <div className="check-media">
           <a href="#">Home</a>
