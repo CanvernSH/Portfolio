@@ -149,7 +149,7 @@ function App() {
             Software Engineer & graduate from Durham University
             <br></br>
             <br></br>
-            Experienced in software development with experience in Outlier
+            Proficient in software development with experience at Outlier
           </div>
 
         </div>
@@ -269,7 +269,7 @@ function App() {
         <br></br>
 
         <div style={{textAlign: 'center', margin: '0 auto', width: '600px', color: 'grey', fontSize: '20px'}}>
-          The following projects are some of my latest projects that I have worked on. These have taught me a variety of programming skills and website application. I am constantly making new projects and learning more about computer engineering.
+          The following projects are some of my latest projects that I have worked on. These have taught me a variety of programming skills and website applications. I am constantly making new projects and learning more about computer engineering.
         </div>
 
         <br></br><br></br>
@@ -339,9 +339,9 @@ function App() {
       <br></br> <br></br>
 
       <div style={{textAlign: 'center', margin: '0 auto', width: '700px', color: 'grey', fontSize: '20px'}}>
-        Throughout my time in in my degree, experience and through self-study I have learnt a variety of programming languages and skills. 
+        Throughout my time in my degree, experience, and through self-study, I have learnt a variety of programming languages and skills. 
         These skills have been gained through many hours of practice, understanding and problem solving. 
-        I am constantly deepening my understanding in these languages, as well as remaining open to new languages and gaining transferrable skills 
+        I am constantly deepening my understanding of these languages, as well as remaining open to new languages and gaining transferable skills.
         <br></br><br></br>
 
         <div style={{display: 'flex', justifyContent: 'center'}}>
