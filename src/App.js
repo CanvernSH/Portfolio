@@ -83,7 +83,6 @@ function App() {
 
 
 
-
   return (
     <div>
       <Particles id="tsparticles" options={options} particlesLoaded={particlesLoaded} />
@@ -108,7 +107,7 @@ function App() {
         
         <div style={{direction: 'rtl', marginRight: '20px', width: '100%'}}>
           <button onClick={handleNavButton} className='nav-bar'> <img src={NavImg} style={{height: '15px', width: '15px'}} alt=""></img> </button>
-          <a href="https://drive.google.com/uc?export=download&id=1qLq8gyrJMoBeTb8CFeV_-LDaDgSfxLFx" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'35px', width: '135px', cursor: 'pointer'}}><img src={DownloadIcon} alt="" style={{height: '16px', width: '16px', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
+          <a href="https://drive.google.com/uc?export=download&id=1a2Porr1XPKo7ug7m7VBpzc_bMG5q8oIm" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'35px', width: '135px', cursor: 'pointer'}}><img src={DownloadIcon} alt="" style={{height: '16px', width: '16px', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
         </div>
       </header>
 
