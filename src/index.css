@@ -149,10 +149,11 @@ body{
     margin-left: 83%;
     height: fit-content;
     position: fixed; 
-    width: 13%; 
+    min-width: 13%;
+    width: fit-content;
     color: white;
     text-align: center;
-    font-size: clamp(1rem, 1.5vh, 2rem);
+    font-size: clamp(1rem, 1.9vh, 2rem);
     padding: 10px
 }
 
