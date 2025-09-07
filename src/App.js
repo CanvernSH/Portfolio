@@ -105,7 +105,7 @@ function App() {
           <a href="https://linkedin.com/in/canvernsh"><FaLinkedin size={30}></FaLinkedin></a>
         </div>
         
-        <div style={{direction: 'rtl', marginRight: '20px', width: '75%'}}>
+        <div style={{direction: 'rtl', marginRight: '20px', width: '70%'}}>
           <button onClick={handleNavButton} className='nav-bar'> <img src={NavImg} style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)'}} alt=""></img> </button>
           <a href="https://drive.google.com/uc?export=download&id=1a2Porr1XPKo7ug7m7VBpzc_bMG5q8oIm" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'clamp(35px, 3.5vh, 60px)', width: 'clamp(135px, 8.5vh, 195px)', cursor: 'pointer', fontSize: 'clamp(1rem, 1.5vh, 2rem)'}}><img src={DownloadIcon} alt="" style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
         </div>
