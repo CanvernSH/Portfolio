@@ -276,10 +276,10 @@ function App() {
 
         <div className='project-container'>
           <div style={{width: '500px'}}>
-            <a href="https://maths-quiz-nine.vercel.app" target="_blank"><img src={maths_quiz} className='project-photo' alt=''></img></a>
+            <a href="https://maths-quiz.canvern.com" target="_blank"><img src={maths_quiz} className='project-photo' alt=''></img></a>
           </div>
           <div className='project-text'>
-            A full-stack maths quiz application. Frontend: React, Backend: Node.js and Express. Database: Postgresql. Link <a href="https://maths-quiz-nine.vercel.app">here</a>
+            A full-stack maths quiz application. Frontend: React, Backend: Node.js and Express. Database: Postgresql. Link <a href="https://maths-quiz.canvern.com">here</a>
           </div>
         </div>
 
