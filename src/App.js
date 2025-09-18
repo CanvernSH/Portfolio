@@ -4,9 +4,10 @@ import { loadSlim } from "@tsparticles/slim";
 
 
 import CSH_photo from './img/CSH_Graduation_picture.jpg';
-import maths_quiz from './img/maths-quiz.png';
+import maths_quiz from './img/maths-quiz2.png';
 import Sentiment_keyword_analysis_model from './img/key_word_sentiment_analysis_model.png';
 import personalised_ai from './img/personalised-ai.png';
+import deep_learning_model from './img/deep-learning-model2.png';
 
 
 import {FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -285,19 +286,19 @@ function App() {
 
         <div className='project-container'>
           <div style={{width: '500px'}}>
-            <a href="https://sentiment-and-keyword-analysis.vercel.app" target="_blank"><img src={Sentiment_keyword_analysis_model} className='project-photo2' alt=''></img></a>
+            <a href="https://www.kaggle.com/code/canvernsh/final-vgg-16-normalised-da/notebook" target="_blank"><img src={deep_learning_model} className='project-photo3' alt=''></img></a>
           </div>
           <div className='project-text'>
-            This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing. Link <a href="https://sentiment-and-keyword-analysis.vercel.app/">here</a>
+            This project involves programming neural networks using Python and the framework TensorFlow. Project <a href="https://drive.google.com/file/d/1cR64JfxLXH2VTI7OlcOhzVw-PZ6Uy5mv/view?usp=sharing">here</a>. Link <a href="https://www.kaggle.com/code/canvernsh/final-vgg-16-normalised-da/notebook">here</a>
           </div>
         </div>
 
         <div className='project-container'>
           <div style={{width: '500px'}}>
-            <a href="https://personalised-ai.vercel.app" target="_blank"><img src={personalised_ai} className='project-photo3' alt=''></img></a>
+            <a href="https://sentiment-and-keyword-analysis.vercel.app" target="_blank"><img src={Sentiment_keyword_analysis_model} className='project-photo2' alt=''></img></a>
           </div>
           <div className='project-text'>
-            Personalised AI by connecting to Google Gemini AI model. Link <a href="personalised-ai.vercel.app">here</a>
+            This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing. Link <a href="https://sentiment-and-keyword-analysis.vercel.app/">here</a>
           </div>
         </div>
         <br></br><br></br><br></br><br></br><br></br>
