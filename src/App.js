@@ -108,7 +108,7 @@ function App() {
         
         <div style={{direction: 'rtl', marginRight: '20px', width: '70%'}}>
           <button onClick={handleNavButton} className='nav-bar'> <img src={NavImg} style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)'}} alt=""></img> </button>
-          <a href="https://drive.google.com/uc?export=download&id=1F7iCHOBpShKDsp9QZZXH27FOd6psf-6h" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'clamp(35px, 3.5vh, 60px)', width: 'clamp(135px, 8.5vh, 195px)', cursor: 'pointer', fontSize: 'clamp(1rem, 1.5vh, 2rem)'}}><img src={DownloadIcon} alt="" style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
+          <a href="https://drive.google.com/uc?export=download&id=1uPI0mEMx7xjDRZmLH-uSkFByvqfIJM60" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'clamp(35px, 3.5vh, 60px)', width: 'clamp(135px, 8.5vh, 195px)', cursor: 'pointer', fontSize: 'clamp(1rem, 1.5vh, 2rem)'}}><img src={DownloadIcon} alt="" style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
         </div>
       </header>
 
@@ -165,11 +165,11 @@ function App() {
       </div>
 
       <div style={{color: 'grey', display: 'flex', justifyContent: 'center', alignItems:'center', width: '500px', margin: '0 auto', fontFamily: 'sans-serif', fontSize: 'medium', fontWeight: 'bolder', gap: '15%'}}>
-        Recent graduate from Durham University with a strong foundation in software development, programming, and mathematics. I have hands-on experience building full-stack applications using Python,
-        C++, and Next.js, alongside practical knowledge of AI and deep learning from academic and real-world
-        projects. At Outlier.ai, I contributed to both AI model training and web development initiatives. I
-        possess strong leadership skills developed through tutoring and have honed my communication abilities
-        through group projects. Seeking a graduate role in software development in the UK starting in 2025.
+        Recent graduate from Durham University with a strong foundation in software development, programming, and mathematics. 
+        I have hands-on experience building full-stack applications using JavaScript, Python and SQL, alongside practical knowledge of software engineering from academic and real-world projects. 
+        At Outlier, I contributed to both AI model training and programming development initiatives. 
+        I possess strong leadership skills developed through tutoring and have honed my communication abilities through group projects. 
+        Seeking a role in software development within the UK.
       </div>
 
 
@@ -226,17 +226,17 @@ function App() {
       <div style={{color: 'white', textAlign: 'center'}}>
         
         <div style={{display:'flex', alignItems: 'center', textAlign:'center', justifyContent:'center'}}> 
-          <div style={{marginRight: '100px'}}>
+          <div style={{marginRight: '80px'}}>
             <h1>Outlier AI</h1>
             Software Developer
           </div>
 
           <div>
-            •Trained generative AI models across multiple internal projects, ensuring high data quality
+            • Trained and fine-tuned generative AI models across 3+ projects, improving data quality by 25%.
             <br></br>
-            • Built full-stack web applications with Next.js to optimize internal tools for AI model evaluation.
+            • Built web apps in JavaScript, Python and SQL to streamline workflows, reduced review time by 40%
             <br></br>
-            • Reviewed contributions, flagged quality issues, and attended webinars on Gen AI developments.
+            • Conducted code reviews, flagged model quality issues, and contributed to cross-team discussions.
           </div>
         </div>
         
