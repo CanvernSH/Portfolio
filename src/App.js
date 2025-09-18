@@ -108,7 +108,7 @@ function App() {
         
         <div style={{direction: 'rtl', marginRight: '20px', width: '70%'}}>
           <button onClick={handleNavButton} className='nav-bar'> <img src={NavImg} style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)'}} alt=""></img> </button>
-          <a href="https://drive.google.com/uc?export=download&id=1kLk78tI6Ztbt_CTzwMBI7WfxV0A1QWRC" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'clamp(35px, 3.5vh, 60px)', width: 'clamp(135px, 8.5vh, 195px)', cursor: 'pointer', fontSize: 'clamp(1rem, 1.5vh, 2rem)'}}><img src={DownloadIcon} alt="" style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
+          <a href="https://drive.google.com/uc?export=download&id=1F7iCHOBpShKDsp9QZZXH27FOd6psf-6h" download="CanvernSH.pdf"><button style={{backgroundColor: 'red', marginRight: '20px', borderRadius: '20px', height:'clamp(35px, 3.5vh, 60px)', width: 'clamp(135px, 8.5vh, 195px)', cursor: 'pointer', fontSize: 'clamp(1rem, 1.5vh, 2rem)'}}><img src={DownloadIcon} alt="" style={{height: 'clamp(16px, 1.5vh, 32px)', width: 'clamp(16px, 1.5vh, 32px)', alignItems: 'center', transform: 'translate(0px, 3px)'}}></img>Resume</button></a>
         </div>
       </header>
 
