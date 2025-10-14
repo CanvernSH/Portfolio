@@ -5,8 +5,7 @@ import { loadSlim } from "@tsparticles/slim";
 
 import CSH_photo from './img/CSH_Graduation_picture.jpg';
 import maths_quiz from './img/maths-quiz2.png';
-import Sentiment_keyword_analysis_model from './img/key_word_sentiment_analysis_model.png';
-import personalised_ai from './img/personalised-ai.png';
+import tenancy from './img/tenancy.png';
 import deep_learning_model from './img/deep-learning-model2.png';
 
 
@@ -277,6 +276,15 @@ function App() {
 
         <div className='project-container'>
           <div style={{width: '500px'}}>
+            <a href="https://tenancy.canvern.com" target="_blank"><img src={tenancy} className='project-photo2' alt=''></img></a>
+          </div>
+          <div className='project-text'>
+            A tenancy management system including AI integration. Main features include: user authentication, role-based access, mobile friendly design, Google Cloud storage and Relational Databases. Frontend: React, Backend: Python, Flask, Database: PostgreSQL. Link <a href="https://tenancy.canvern.com">here</a>
+          </div>
+        </div>
+
+        <div className='project-container'>
+          <div style={{width: '500px'}}>
             <a href="https://maths-quiz.canvern.com" target="_blank"><img src={maths_quiz} className='project-photo' alt=''></img></a>
           </div>
           <div className='project-text'>
@@ -290,15 +298,6 @@ function App() {
           </div>
           <div className='project-text'>
             This project involves programming neural networks using Python and the framework TensorFlow. Project <a href="https://drive.google.com/file/d/1cR64JfxLXH2VTI7OlcOhzVw-PZ6Uy5mv/view?usp=sharing">here</a>. Link <a href="https://www.kaggle.com/code/canvernsh/final-vgg-16-normalised-da/notebook">here</a>
-          </div>
-        </div>
-
-        <div className='project-container'>
-          <div style={{width: '500px'}}>
-            <a href="https://sentiment-and-keyword-analysis.vercel.app" target="_blank"><img src={Sentiment_keyword_analysis_model} className='project-photo2' alt=''></img></a>
-          </div>
-          <div className='project-text'>
-            This project demonstrates a simple implementation of an AI incorporated into a webpage using an API link and backend routing. Link <a href="https://sentiment-and-keyword-analysis.vercel.app/">here</a>
           </div>
         </div>
         <br></br><br></br><br></br><br></br><br></br>
