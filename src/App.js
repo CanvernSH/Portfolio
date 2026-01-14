@@ -19,10 +19,12 @@ import PythonImg from './img/python.png';
 import CPlusPlus from './img/c++.png';
 import JavaScript from './img/javascript.png';
 import ReactImg from './img/react.png';
+import Angular from './img/angular.png';
 import RStudio from './img/rstudio.png';
 
+import TS from './img/typescript.png';
 import PyTorch from './img/pytorch.png';
-import TensorFlow from './img/TensorFlow.png';
+import TensorFlow from './img/tensorflow.png';
 import Git from './img/git.png';
 import Postgresql from './img/postgresql.png';
 
@@ -149,7 +151,7 @@ function App() {
             Software Engineer & graduate from Durham University
             <br></br>
             <br></br>
-            Proficient in software development with experience at Outlier
+            Proficient in software development with experience at Illumina
           </div>
 
         </div>
@@ -168,7 +170,7 @@ function App() {
         I have hands-on experience building full-stack applications using JavaScript, Python and SQL, alongside practical knowledge of software engineering from academic and real-world projects. 
         At Outlier, I contributed to both AI model training and programming development initiatives. 
         I possess strong leadership skills developed through tutoring and have honed my communication abilities through group projects. 
-        Seeking a role in software development within the UK.
+        Currently working as a software engineer at Illumina.
       </div>
 
 
@@ -223,6 +225,19 @@ function App() {
       </div>
 
       <div style={{color: 'white', textAlign: 'center'}}>
+
+        <div style={{display:'flex', alignItems: 'center', textAlign:'center', justifyContent:'center'}}> 
+          <div style={{marginRight: '80px'}}>
+            <h1>Illumina</h1>
+            Software Engineer
+          </div>
+
+          <div>
+            • Working on a visualisation project - finding variants by comparing to the reference genome
+            <br></br>
+            • Unlocking the power of the genome to help cure diseases and improve health
+          </div>
+        </div>
         
         <div style={{display:'flex', alignItems: 'center', textAlign:'center', justifyContent:'center'}}> 
           <div style={{marginRight: '80px'}}>
@@ -363,6 +378,10 @@ function App() {
           </div>
 
           <div className='hex'>
+            <img src={Angular} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
+
+          <div className='hex'>
             <img src={RStudio} style={{width: '60px', height: '60px'}} alt=''></img>
           </div>
 
@@ -370,6 +389,10 @@ function App() {
 
 
         <div style={{display: 'flex', justifyContent: 'center'}}>
+
+          <div className='hex'>
+            <img src={TS} style={{width: '60px', height: '60px'}} alt=''></img>
+          </div>
 
           <div className='hex'>
             <img src={PyTorch} style={{width: '60px', height: '60px'}} alt=''></img>
